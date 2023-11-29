@@ -36,6 +36,8 @@ public class App {
             }
         }
 
+
+        //deleting a frequency
         String targetWord = "avoidable";
 for (LinkedList<Node> list : hashTable.values()) {
     Node targetNode = WordFreq.count(list, targetWord);
