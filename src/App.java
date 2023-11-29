@@ -5,7 +5,7 @@ import java.util.Map;
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Welcome to hashTable program to calculate word frequency");
-        String data = "to be or not to be";
+        String data = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidabl situations";
         String words[] = StringSplit.splitText(data);
 
         Map<Integer, LinkedList<Node>> hashTable = new HashMap<>();
